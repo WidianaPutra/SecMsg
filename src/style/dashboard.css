@@ -1,0 +1,26 @@
+.card {
+  width: 450px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 15px 15px 30px black;
+  background-color: rgb(92, 92, 92);
+  /* background-color: #cacaca; */
+  overflow: hidden;
+  margin: 10px;
+  transition: all .1s;
+}
+
+.card:hover {
+  scale: 105%;
+}
+
+.msg {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 93%;
+  }
+}

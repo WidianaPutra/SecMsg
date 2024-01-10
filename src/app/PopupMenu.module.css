@@ -1,0 +1,33 @@
+.popupContainer {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  z-index: 1;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.popup ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popup li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.popup li:hover {
+  background-color: #f0f0f0;
+}
